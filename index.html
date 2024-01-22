@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/84b2c724d9.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <style>
-        body{
+        body {
             font-family: 'Manrope', sans-serif;
         }
     </style>
@@ -24,40 +24,75 @@
         <!----------------------------------------------------------------------
             ------------------------- navbar start-------------------------- -->
 
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
+        <div class="navbar bg-base-100 mb-14">
+            <div class="navbar-start">
+                <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
                     </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li class="text-[#FF4240]"><a>Home </a></li>
-                      <li>
-                        <a>About</a>
-                      </li>
-                      <li><a>Pages</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact</a></li>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li class="text-[#FF4240]"><a>Home </a></li>
+                        <li>
+                            <a>About</a>
+                        </li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
                     </ul>
-                  </div>
-                  <a class="btn btn-ghost text-3xl font-extrabold">Hockey’s</a>
                 </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
+                <a class="btn btn-ghost text-3xl font-extrabold">Hockey’s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
                     <li class="text-[#FF4240]"><a>Home </a></li>
-                      <li>
+                    <li>
                         <a>About</a>
-                      </li>
-                      <li><a>Pages</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact</a></li>
-                  </ul>
+                    </li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end gap-6">
+                <i class="fa-solid fa-magnifying-glass invisible lg:visible "></i>
+                <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+            </div>
+        </div>
+        <!-- -------------------------------------------------------  ----------------banner section------------------
+                ------------------------- -->
+        <section class="mb-24">
+            <div class="w-full lg:w-3/4 mx-auto relative">
+                <div class="carousel  ">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="images//1.png" class="w-full" />
+                        <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-1/3 top-3/4 lg:left-14 gap-5 lg:top-96">
+                            <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="images//4.png" class="w-full" />
+                        <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-1/3 top-3/4 lg:left-14 gap-5 lg:top-96">
+                            <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="navbar-end gap-6">
-                    <i class="fa-solid fa-magnifying-glass invisible lg:visible "></i>
-                  <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+                <div class= "space-y-5 text-white lg:absolute lg:bottom-10 lg:right-10 lg:h-[40%] lg:w-[50%] rounded-lg p-8 bg-black">
+                    <h2 class="text-2xl font-extrabold">Meet all the heroes from the field</h2>
+                    <p>someone who takes part in a game or sport: Each player takes three cards. The team has many talented players.  </p>
                 </div>
-              </div>
+            </div>
+            
+        </section>
     </header>
     <main>
 
